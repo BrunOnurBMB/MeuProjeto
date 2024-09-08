@@ -45,7 +45,7 @@
                                     <a aria-label="Acessa a sessão contato" class="nav-link" href="#contato">Contato</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a aria-label="Acessa o blog" class="nav-link" href="#">Blog</a>
+                                    <a aria-label="Acessa o blog" class="nav-link disabled" href="#">Blog</a>
                                 </li>
                             </ul>
                         </div>
