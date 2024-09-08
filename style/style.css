@@ -1,0 +1,174 @@
+@charset "UTF-8";  
+
+/*Zerando marin e padding da pagina*/
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+/*Importando font*/
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*Aplicando a font na pagina toda*/
+body{
+    font-family: "nerko One", cursive;
+}
+
+/*Definindo o backgound img*/
+main{
+    background-image: url(../Assets/fundo01.w.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Alterando cor, definindo tamanho das palavras, definindo distancia entre as letras*/
+p{
+    color: rgb(226, 226, 226);
+    font-size: 1.7rem;
+    letter-spacing: 0.15rem;
+    box-sizing: border-box;
+}
+
+/*Alterando cor do h1 e defindindo seu tamanho*/
+h1{
+    color: white;
+    font-size: 4rem;
+}
+
+h2{
+    color: white;
+    font-size: 3rem;
+}
+
+h5{
+    color: black;
+    font-size: 2.3rem;
+}
+
+/*Retirando estilo do UL no inicio da pagina*/
+.listaContatosAsideTOP ul{
+    list-style: none;
+    padding-bottom: 5rem ;
+}
+
+/* animando a imagem da mão */
+.animandoImagem {
+    position: relative;
+    animation: move 3s infinite alternate;
+  }
+  
+  @keyframes move {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 100px; /* Ajuste conforme necessário */
+    }
+  }
+
+/* Configurando a seção sobre */
+.asideSobre img{
+    padding-top: 15rem;
+}
+.sectionSobre{
+    margin-top: 5rem;
+}
+.sectionSobre h1{
+    margin-top: 5rem;
+}
+.sectionSobre p{
+    text-align: start;
+    font-size: 1.5rem;
+    padding: 01rem 0rem 1rem 2rem;
+    margin: 0 4rem 0 4rem;
+}
+
+.animandoTexto{
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.textoVisivel{
+    opacity: 1;
+}
+
+/* configurando cards */
+.card-text{
+    color: black;
+}
+
+.btnAcessar{
+    background-color: black;
+}
+
+.btnAcessar:hover{
+    background-color: white;
+    color: black;
+}
+
+.card{
+    margin: 0 4rem 4rem 4rem;
+}
+
+.car-text{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.cardAnimacao {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1.5s ease-in-out, visibility 1.5s ease-in-out;
+    height: 0;
+    overflow: hidden;
+  }
+  
+.cardAnimacao.show {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+  }
+
+#btnAtivar {
+    padding: 1rem;
+    border-radius: 16px;
+    color: black;
+    margin-bottom: 3rem;
+}
+
+#btnAtivar:hover {
+    padding: 0.5rem;
+    border-radius: 16px;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+/*Definindo uma cor de fundo do footer*/
+.footer{
+    background-color: rgba(240, 255, 255, 0.308);
+}
+
+/*Retirando estilo do UL na parte de contatos e defindo margin*/
+.boratrabalharJuntos ul{
+    list-style: none;
+    margin-top: 3rem;
+}
+
+/* alterando o tamanho do conteudo no roda pé */
+.conteudoRodaPe{
+    font-size: 1rem;
+}
+
+/* Ajuste técnico: a imagem mesmo com o tamanha identico ao do linkedin e do wpp estava crashando, agr não crashsa mais em nenhum tamanhao de tela diferente e não apresenta riscos de crashar tudo 
+PS: a imagem do github do footer funcionou sendo outra... n sei o que aconteceu, se souber me diz pfvr <3 abraço.
+*/
+.github{
+    width: 100%;
+    padding: 18%;
+}
+
