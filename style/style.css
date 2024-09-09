@@ -189,9 +189,6 @@ PS: a imagem do github do footer funcionou sendo outra... n sei o que aconteceu,
         font-size: 2.4rem;
     }
 
-    div {
-        border: solid 1px red;
-    }
 
     h2 {
         font-size: 2.4rem;
@@ -206,10 +203,6 @@ PS: a imagem do github do footer funcionou sendo outra... n sei o que aconteceu,
     }
 }
 @media screen and (max-width: 576px) {
-
-    div {
-        border: solid 1px green;
-    }
 
     h1 {
         font-size: 2rem;
