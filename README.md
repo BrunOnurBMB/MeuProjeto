@@ -8,7 +8,7 @@ O Design não é meu forte então busquei todas as imagens do [freepik](https://
 Utilizei o [GIMP](https://www.gimp.org/) para mudar o tamanho das imagens e transformar em formato Webp.
 ***
 Estou disponivel a opiniões e sugestões do que melhorar.
-Abraços Bruno.
+Abraços Bruno. :v:
 
 
 Meu - [Linkedin](https://www.linkedin.com/in/bruno-silveira-496705293/)
