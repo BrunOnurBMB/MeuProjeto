@@ -1,6 +1,7 @@
 # Landing page para apresentar meu portifolio
-Desenvolvi essa pagina utilizando **HTML**, **CSS** e **JS**.
-No desenvolvimento desta página utilizei as tags **semânticas** do HTML, o CSS para animação da imagem no início da pagina assim como o JS nas animações do texto e dos cards.
+Desenvolvi essa pagina utilizando **HTML**, **CSS**, **Bootstrap** e **JS**.
+No desenvolvimento desta página utilizei as tags **semânticas** do HTML, o CSS para animação da imagem no início da pagina e de alguns outros elementos, assim como o JS nas animações do texto e dos cards.
+O Bootstrap utilizei para formatação e alinhamento dos elementos da maior parte dos conteudos da pagina.
 ***
 O Design não é meu forte então busquei todas as imagens do [freepik](https://br.freepik.com/), backgound e imagens em 3D.
 
